@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--<link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="bootstrap-5.1.0-dist/css/bootstrap.min.css">
+    <script src="bootstrap-5.1.0-dist/js/bootstrap.min.js"></script>-->
+    
+
+   
+    <title>Aula 6.2</title>
+</head>
+<body>
+    <fieldset>
+        <label for="input-nome">Nome:</label>
+        <input type="text" name="name" required maxlength="10" id="input-nome">
+        
+        <label for="input-email">E-mail:</label>
+        <input type="email" name="email" required maxlength="50" id="input-email">
+        
+        <label for="input-cpf">CPF:</label>
+        <input type="text" name="cpf" required maxlength="11" id="input-cpf">
+        
+        <label for="input-end">Endereço:</label>
+        <input type="text" name="address" required maxlength="200" id="input-end">
+        
+        <label for="input-city">Cidade: </label>
+        <input type="text" name="city" required maxlength="28" id="input-city">
+       
+        <label for="input-state">Estado:</label>
+        <select name="state" id="input-state" required>:
+         <option disabled selected value="">Selecione seu estado</option> 
+        </select>
+
+       
+        <label for="input-casa">Tipo de imóvel:</label>
+        <input type="radio" id="input-casa" name="tipo" value="casa" checked>Casa:       
+        <input type="radio" id="input-apt" name="tipo" value="apartamento">Apartamento:       
+    </fieldset>
+
+    <fieldset>
+        <label for="resume">Resumo do currículo</label>
+        <textarea name="curriculo" id="resume" cols="30" rows="10" required maxlength="1000"></textarea>
+
+       <label for="cargo">Cargo</label>
+        <textarea name="cargo" id="cargo" cols="30" rows="1" required maxlength="40"></textarea>
+
+        <label for="descr-cargo">Descriçõ do cargo</label>
+        <textarea name="descricao-cargo" id="descr-cargo" cols="30" rows="5" required maxlength="500"></textarea>
+        <br>
+
+        <label for="date"></label>
+            Data de início:<input type="" id="date" name="tipo">        
+    </fieldset>
+    
+    <button class="submit-button" type="submit">Enviar</button>        
+    <button class="clear-button" type="button">Limpar</button>
+    <script src="script.js"></script>
+</body>
+</html>
