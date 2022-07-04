@@ -23,7 +23,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] 3.2: _HTML & CSS - Primeiros passos em CSS_
 - [x] 3.3: _HTML & CSS - Seletores e posicionamento_
 - [x] 3.4: _HTML Semântico_
-- [x] 3.5: _[Project - Lessons Learned](https://github.com/jpcp0614/Project-Lessons-Learned/tree/joao-paulo-pereira-lessons-learned)_ 📖
+- [x] 3.5: _[Project - Lessons Learned]()_ 📖
 
 ##### Bloco 04: Introdução à JavaScript e Lógica de Programação
 
@@ -31,7 +31,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] 4.2: _JavaScript - Array e loop For_
 - [x] 4.3: _JavaScript - Lógica de Programação e Algoritmos_
 - [x] 4.4: _JavaScript - Objetos e funções_
-- [x] 4.5: _[Project - Playground Functions](https://github.com/jpcp0614/Project-Playground-Functions/tree/joao-paulo-pereira-playground-functions)_ 🧮
+- [x] 4.5: _[Project - Playground Functions]()_ 🧮
 
 ##### Bloco 05: Introdução - JavaScript - Projetos
 
@@ -39,8 +39,8 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] 5.2: _JavaScript - Trabalhando com elementos_
 - [x] 5.3: _JavaScript - Eventos_
 - [x] 5.4: _JavaScript - Web Storage_
-- [x] 5.5: _[Project - Pixels Art](https://github.com/jpcp0614/Project-Pixels-Art/tree/joao-paulo-pereira-project-pixels-art)_ 🎨
-- [x] 5.6: _[Project - Todo List](https://github.com/jpcp0614/Project-Todo-List/tree/joao-paulo-pereira-project-todo-list)_ 📑
+- [x] 5.5: _[Project - Pixels Art]()_ 🎨
+- [x] 5.6: _[Project - Todo List]()_ 📑
 
 ##### Bloco 06: HTML & CSS Avançado
 
@@ -49,7 +49,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] 6.3: _CSS Flexbox - Part 1_
 - [x] 6.4: _CSS Flexbox - Part 2_
 - [x] 6.5: _CSS Responsivo - Mobile First_
-- [x] 6.6: _[Project - TrybeWarts](https://github.com/jpcp0614/Project-TrybeWarts/tree/joao-paulo-pereira-project-trybewarts)_ 🧙‍♂️
+- [x] 6.6: _[Project - TrybeWarts]()_ 🧙‍♂️
 
 ##### Bloco 07: JavaScript ES6 & Testes Unitários
 
@@ -57,7 +57,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] 7.2: _JavaScript ES6 - Objects_
 - [x] 7.3: _Testes unitários em JavaScript_
 - [x] 7.4: _Testando em pequenos passos_
-- [x] 7.5: _[Project - JavaScript Unit Tests](https://github.com/jpcp0614/Project-JavaScript-Unit-Tests/tree/joao-paulo-pereira-project-unit-tests)_ ✔️
+- [x] 7.5: _[Project - JavaScript Unit Tests]()_ ✔️
 
 ##### Bloco 08: Higher Order Functions do JavaScript ES6
 
@@ -65,20 +65,20 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] 8.2: _JavaScript ES6 - Higher Order Functions - forEach, find, filter, some, every, sort_
 - [x] 8.3: _JavaScript ES6 - Higher Order Functions - map e reduce_
 - [x] 8.4: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
-- [x] 8.5: _[Project - Zoo functions](https://github.com/jpcp0614/Project-Zoo-Functions/tree/joao-paulo-pereira-project-zoo-functions)_ 🦁 🦒 🐧
+- [x] 8.5: _[Project - Zoo functions]()_ 🦁 🦒 🐧
 
 ##### Bloco 09: JavaScript Assíncrono e Promises
 
 - [x] 9.1: _Primeiros passos no Jest_
 - [x] 9.2: _JavaScript Assíncrono e Callbacks_
 - [x] 9.3: _JavaScript Promises_
-- [x] 9.4: _[Project - Shopping Cart](https://github.com/jpcp0614/Project-Shopping-Cart/tree/joao-paulo-pereira-project-shopping-cart)_ 🛒
+- [x] 9.4: _[Project - Shopping Cart]()_ 🛒
 
 ##### Bloco 10 (antigo): Testes Automatizados com Jest
 
 - [x] 10.1: _Jest - Testes Assíncronos_
 - [x] 10.2: _Jest - Simulando comportamentos_
-- [x] 10.3: _[Project - Asynchronous Jest and Mocking](https://github.com/jpcp0614/Project-Asynchronous-Jest-and-Mocking/tree/joao-paulo-pereira-project-jest)_ ✔️
+- [x] 10.3: _[Project - Asynchronous Jest and Mocking]()_ ✔️
 
 </details open>
 
@@ -89,31 +89,31 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 
 - [x] 10.1: _'Hello, world!' no React!_
 - [x] 10.2: _Componentes React_
-- [x] 10.3: _[Project - Movie Cards Library](https://github.com/jpcp0614/Project-Movie-Cards-Library/tree/joao-paulo-pereira-movie-cards-library)_ 🗂️
+- [x] 10.3: _[Project - Movie Cards Library]()_ 🗂️
 
 ##### Bloco 11: React
 
 - [x] 11.1: _Components com estado_
 - [x] 11.2: _Eventos e formulários no React_
-- [x] 11.3: _[Project - Tryunfo](https://github.com/jpcp0614/Project-Tryunfo/tree/joao-paulo-pereira-tryunfo)_ 🎴
+- [x] 11.3: _[Project - Tryunfo]()_ 🎴
 
 ##### Bloco 12: React
 
 - [x] 12.1: _Ciclo de vida de componentes em React_
 - [x] 12.2: _React Router_
-- [x] 12.3: _[Project - Trybetunes](https://github.com/jpcp0614/Project-Trybetunes/tree/joao-paulo-pereira-trybetunes)_ 🎧
+- [x] 12.3: _[Project - Trybetunes]()_ 🎧
 
 ##### Bloco 13: Metodologias Ágeis
 
 - [x] 13.1: _Metodologias Ágeis_
-- [x] 13.2: _[Project - Frontend Online Store](https://github.com/jpcp0614/Project-Frontend-Store-Online/tree/main-group-29)_ 🛒
+- [x] 13.2: _[Project - Frontend Online Store]()_ 🛒
 
 ##### Bloco 14: Testes Automatizados com React Testing Library
 
 - [x] 14.1: _RTL - Primeiros Passos_
 - [x] 14.2: _RTL - Mocks e Inputs_
 - [x] 14.3: _RTL - Testando React Router_
-- [x] 14.4: _[Project React Testing Library](https://github.com/jpcp0614/Project-React-Testing-Library/tree/joao-paulo-pereira-react-testing-library)_ 🎴
+- [x] 14.4: _[Project React Testing Library]()_ 🎴
 
 ##### Bloco 15: Gerenciamento de estado com Redux
 
@@ -122,12 +122,12 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] 15.3: _Usando o Redux no React - Prática_
 - [x] 15.4: _Usando o Redux no React - Actions Assíncronas_
 - [x] 15.5: _Testes em React-Redux_
-- [x] 15.6: _[Project - Trybewallet](https://github.com/jpcp0614/Project-Trybewallet/tree/joao-paulo-pereira-trybewallet)_ 💸
+- [x] 15.6: _[Project - Trybewallet]()_ 💸
 
 ##### Bloco 16: Projeto Jogo de Trivia
 
 
-- [x] 16.1: _[Project - Jogo de Trivia](https://github.com/jpcp0614/Project-Trivia/tree/main-group-3)_ ❓
+- [x] 16.1: _[Project - Jogo de Trivia]()_ ❓
 
 ##### Bloco 17: Context API & React Hooks
 
