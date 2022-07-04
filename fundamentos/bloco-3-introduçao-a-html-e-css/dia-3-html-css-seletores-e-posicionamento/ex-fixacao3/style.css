@@ -1,0 +1,15 @@
+h1, p {
+    text-align: center;
+}
+
+li:hover {
+    background-color: cadetblue;
+}
+
+li:active {
+    font-weight: 800;
+}
+
+ol, ul {
+    list-style: none;
+}
