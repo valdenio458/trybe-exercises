@@ -1,0 +1,92 @@
+Exercícios de 1 a 14 - dia 1
+
+valdenio@martinho:~$ docker pull debian:stable-slim
+stable-slim: Pulling from library/debian
+686b8aaade4d: Pull complete 
+Digest: sha256:608a500bd0d397338ec0e8579649985fb2ceb85c07d183b3abaf46d233e1e6eb
+Status: Downloaded newer image for debian:stable-slim
+docker.io/library/debian:stable-slim
+
+4)
+valdenio@martinho:~$ docker container run -it debian:stable-stable-slim
+Unable to find image 'debian:stable-stable-slim' locally
+docker: Error response from daemon: manifest for debian:stable-stable-slim not found: manifest unknown: manifest unknown.
+See 'docker run --help'.
+valdenio@martinho:~$ docker container run -it debian:stable-slim
+
+5)
+root@2a1f41da1d70:/# cat /etc/*-release
+PRETTY_NAME="Debian GNU/Linux 11 (bullseye)"
+NAME="Debian GNU/Linux"
+VERSION_ID="11"
+VERSION="11 (bullseye)"
+VERSION_CODENAME=bullseye
+ID=debian
+HOME_URL="https://www.debian.org/"
+SUPPORT_URL="https://www.debian.org/support"
+BUG_REPORT_URL="https://bugs.debian.org/"
+
+6)
+root@2a1f41da1d70:/# exit
+exit
+
+7)
+valdenio@martinho:~$ docker container ls -a
+CONTAINER ID   IMAGE                COMMAND   CREATED              STATUS                      PORTS     NAMES
+2a1f41da1d70   debian:stable-slim   "bash"    About a minute ago   Exited (0) 32 seconds ago 
+
+8)            optimistic_cannon
+valdenio@martinho:~$ docker container start 2a1f41da1d70
+2a1f41da1d70
+valdenio@martinho:~$ docker container ls -a
+CONTAINER ID   IMAGE                COMMAND   CREATED         STATUS          PORTS     NAMES
+2a1f41da1d70   debian:stable-slim   "bash"    3 minutes ago   Up 32 seconds             optimistic_cannon
+
+9)
+valdenio@martinho:~$ docker container attach 2a1f41da1d70
+
+10) 
+root@2a1f41da1d70:/# cat /etc/debian_version 
+11.2
+
+11)
+root@2a1f41da1d70:/# exit
+exit
+valdenio@martinho:~$ docker container ls -a
+CONTAINER ID   IMAGE                COMMAND   CREATED         STATUS                      PORTS     NAMES
+2a1f41da1d70   debian:stable-slim   "bash"    8 minutes ago   Exited (0) 22 seconds ago 
+
+12)            optimistic_cannon
+valdenio@martinho:~$ docker container rm 2a1f41da1d70
+2a1f41da1d70
+valdenio@martinho:~$ docker container ls -a
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+
+13)
+valdenio@martinho:~$ docker container run -it --rm andrius/ascii-patrol
+Unable to find image 'andrius/ascii-patrol:latest' locally
+latest: Pulling from andrius/ascii-patrol
+1eae7a7426b0: Pull complete 
+f1ea7afafcda: Pull complete 
+c37ea3632151: Pull complete 
+Digest: sha256:2c815b2abfd7116a69d01a5ed1f1b2a3ab3b5eb09c379fcfdd1215ecd657194e
+Status: Downloaded newer image for andrius/ascii-patrol:latest
+setfont: asciipat.psf: No such file or directory
+W=0, H=0
+Falling back to X11 input
+unable to connect to X11 display
+falling back to sticky stdin!
+BusyBox v1.27.2 (2017-12-12 10:38:23 GMT) multi-call binary.
+
+Usage: setfont FONT [-m MAPFILE] [-C TTY]
+
+Load a console font
+
+	-m MAPFILE	Load console screen map
+	-C TTY		Affect TTY instead of /dev/tty
+valdenio@martinho:~$ docker container ls -a
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+
+14)
+valdenio@martinho:~$ 
+
