@@ -1,0 +1,15 @@
+{
+  "products": {
+    "data": [
+      {
+        "id": "1",
+        "name": "iPhone 11"
+      },
+
+      {
+        "id": "2",
+        "name": "Impressora"
+      }
+    ]
+  }
+}
