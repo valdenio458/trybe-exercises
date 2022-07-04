@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício 5.2</title>
+    <style>
+      section {
+        border-color: black;
+        border-style: solid;
+      }
+
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+
+      .main-content .left-content {
+        background-color: green;
+        width: 60%;
+        margin-left: 0;
+        margin-right: auto;
+      }
+
+      .main-content .left-content .small-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 100%;
+      }
+
+      .main-content .right-content {
+        background-color: blue;
+        width: 60%;
+        margin-left: auto;
+        margin-right: 0;
+      }
+
+      .main-content .description {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      // COLOQUE SEU CÓDIGO AQUI
+      // Parte 1:
+      // Exe-1:
+      let title = document.createElement('h1');
+      title.innerText = "Exercício 5.2 - JavaScript DOM";
+      document.body.appendChild(title);
+
+      // Exe-2
+      let princ = document.createElement('main');
+      princ.className = "main-content";
+      document.body.appendChild(princ);
+
+      // Exe-3
+      
+      let secao = document.createElement('section');
+      secao.className = "center-content";
+      princ.appendChild(secao);
+
+      // Exe-4
+      let parag = document.createElement('p');
+      parag.innerText = "Exercícios DOM - Turma 15-B";
+      secao.appendChild(parag);
+      
+      // Exe-5
+      let secaoLeft = document.createElement('section');
+      secaoLeft.className = "left-content";
+      princ.appendChild(secaoLeft);
+
+      // Exe-6
+      let secaoRight = document.createElement('section');
+      secaoRight.className = "right-content";
+      princ.appendChild(secaoRight);
+
+      // Exe-7
+      let photo = document.createElement('img');
+      photo.className = "small-image";
+      photo.src = "https://picsum.photos/200";
+      secaoLeft.appendChild(photo);
+
+      // Exe-8
+      let lista = document.createElement('ul');
+      secaoRight.appendChild(lista);
+      let arr = ['um','dois','três','quatro','cinco','seis','sete','oito','nove','dez'];
+      for (let index in arr){
+        let elementoLista = document.createElement('li');
+        elementoLista.innerText = arr[index];
+        lista.appendChild(elementoLista);
+      }      
+       
+      // Exe-9     
+      for (let i = 1; i <= 3; i += 1){
+        let subtitle = document.createElement('h3'); 
+        subtitle.innerHTML =  '';         
+        princ.appendChild(subtitle);
+     }
+      // Parte 2:
+      // Exe-1
+      title.className = "title";
+
+      // Exe-2
+      let subtitles = document.getElementsByTagName('h3');
+      for (let i = 0; i < 3; i += 1){
+        subtitles[i].className = "description";
+      }
+      
+      // Exe-3      
+      princ.removeChild(secaoLeft);
+
+      // Exe-4
+      secaoRight.style.marginRight = "auto";
+      
+      // Exe-5
+      secao.style.backgroundColor = "green";
+
+      // Exe-6
+      lista.lastChild.remove();
+      lista.lastChild.remove();
+
+    </script>
+  </body>
+</html>
