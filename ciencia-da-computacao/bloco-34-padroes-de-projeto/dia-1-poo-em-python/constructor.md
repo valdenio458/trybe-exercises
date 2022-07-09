@@ -15,3 +15,7 @@ Em Python, não temos as já conhecidas palavras reservadas: public, private e p
 A abstração de dados oculta os detalhes da implementação e mostra apenas a funcionalidade para o usuário, a fim de reduzir a complexidade do código.
 
 Composição é atribuir o objeto de uma classe a outra, gerando assim um relacionamento de pertencimento entre eles.
+
+Herança é especializar o comportamento de uma classe, ou seja, a classe herdeira é tudo que a classe ascendente é e talvez um pouco mais.
+
+Em Python, para declarar que um objeto herda as características de outro, basta na declaração da classe passarmos como primeiro parâmetro a classe que será herdada.
