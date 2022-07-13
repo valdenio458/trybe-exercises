@@ -6,4 +6,4 @@ with open('graduacao_unb.csv', encoding='utf-8') as file:
     header, *data = graduacao_header
 
 
-print(data)
+print(data[0])
