@@ -23,12 +23,21 @@ def parse_quotes_html(html_content): # pega os dados da página
       result.append(quote_data)
   return result
     
-  
+def parse_next_url(html_content): # pega o link para a próxima página 
+    selector = Selector(html_content)
+    return selector.css("ul.pager li.next a ::attr(href)").get()
 
 def scrape_all_quotes(): # exibe os dados da página
-  base_url = 'https://quotes.toscrape.com/'  
-  quotes_html = fetch_html(base_url) # pega o html da página
-  quotes_data = parse_quotes_html(quotes_html) # pega os dados da página
+  base_url = 'https://quotes.toscrape.com' 
+  next_url_path = "/"
+
+  quotes_data = []
+  while next_url_path:
+      
+      quotes_html = fetch_html(base_url + next_url_path) # pega o html da página
+      quotes_data.extend(parse_quotes_html(quotes_html))
+      next_url_path = parse_next_url(quotes_html) # pega o link para a próxima página 
+      print(next_url_path)     
   return quotes_data
 
 
