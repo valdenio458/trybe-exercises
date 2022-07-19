@@ -14,16 +14,23 @@ def fetch_html(url):
 
 def parse_quotes_html(html_content): # pega os dados da página
   selector = Selector(html_content)
-  quotes = selector.css('body > div > div.row.header-box > div.col-md-8 > h1 > a ::text').get()
-  return quotes
+  result = []
+  for quote in selector.css('div.col-md-8 div.quote'):    
+      content = quote.css("span.text ::text").get()
+      author = quote.css("span small.author ::text").get()
+      tags = quote.css("div.tags a.tag ::text").getall()
+      quote_data = {"content": content, "author": author, "tags": tags}
+      result.append(quote_data)
+  return result
+    
+  
 
 def scrape_all_quotes(): # exibe os dados da página
   base_url = 'https://quotes.toscrape.com/'  
   quotes_html = fetch_html(base_url) # pega o html da página
   quotes_data = parse_quotes_html(quotes_html) # pega os dados da página
-  print(quotes_data)
   return quotes_data
 
-scrape_all_quotes()
+
 
 
