@@ -4,7 +4,7 @@ class Employee:
         self.name = name
 
 
-class HashMap:
+class HashMap: 
     def __init__(self):
         self._buckets = [None for _ in range(10)]
 
